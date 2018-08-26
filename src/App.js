@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {NavMenu} from './components/navmenu/NavMenu';
 import logo from './logo.svg';
+import {Header} from './components/header/Header';
 import './App.scss';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         </p>
           <NavMenu/>
       </div>
+          <Header/>
     );
   }
 }
