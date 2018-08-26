@@ -1,0 +1,17 @@
+a {
+  color: $linkColor;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+li {
+  list-style: none;
+
+}
+body {
+  font-family: $defaultFont;
+}
+h1,h2,h3,h4 {
+  font-family: $defaultFontHeadline;
+}
