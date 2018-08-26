@@ -1,0 +1,20 @@
+@import '../../style/setup';
+.navMenu {
+  display: flex;
+  max-width: $siteWidth;
+  margin: 0 auto;
+  ul.navMenuItems {
+    margin:auto;
+    display: flex;
+    padding: 10px;
+    li {
+    margin-right:10px;
+    &:last-child {
+      margin-right: 0;
+    }
+      a {
+        font-family: $defaultFontHeadline;
+      }
+    }
+  }
+}
